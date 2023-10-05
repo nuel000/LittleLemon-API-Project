@@ -1,0 +1,43 @@
+
+ADMIN
+username = admin
+email = admin@littlelemon.com
+password = littlelemon1234
+
+
+USERS
+
+name  = johndoe
+password = jd1234@@
+user_group = manager
+
+name  = mary_jane
+password = mj1234@@
+user_group = customer
+
+name  = harrymac
+password = hm1234@@
+user_group = customer
+
+name  = emmaeranz
+password = em1234@@
+user_group = delivery_crew
+
+name  =jamesgun
+password = jg1234@@
+user_group = customer
+
+name = jasper123
+password = jp1234
+user_group = customer
+
+name = johnnydrill
+password = jond1234
+
+name = new_emp
+password = ne12345
+
+
+
+api/users/ with username,email and password creates a new user
+api/users/ with Token shows all current users if superadmin and just you if not
